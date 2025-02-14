@@ -1,0 +1,2 @@
+Write a function that takes an array and a chunk size as input.
+The function should return a new array where the original array is split into chunks of the specified size.
