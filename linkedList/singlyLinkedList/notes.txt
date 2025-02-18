@@ -1,0 +1,8 @@
+First definition
+A linked list is a linear data structure where elements, called nodes, are not stored contiguously in memory.
+Instead, each node contains data and a reference, or link, to the next node in the sequence.
+
+Second definition
+A linked list is a linear data structure similar to an array. However, unlike arrays, elements are not stored in a particular memory location or index. Rather each element is a separate object that contains a pointer or a link to the next object in that list.
+
+Notes: this section still need to re-learn
