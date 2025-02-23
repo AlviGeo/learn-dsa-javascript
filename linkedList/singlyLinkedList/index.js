@@ -210,3 +210,30 @@ console.log(myLinkedList.clear());
 //       }
 //   }
 // }
+
+// {
+//   head: {
+//     value: 1,
+//     next: null
+//   },
+//   tail: {
+//     value: 1,
+//     next: null
+//   },
+//   length: 1
+// }
+
+// {
+//   head: {
+//     value: 1,
+//     next: {
+//       value: 10,
+//       next: null
+//     }
+//   },
+//   tail: {
+//     value: 10,
+//     next: null
+//   },
+//   length: 2
+// }

@@ -5,4 +5,10 @@ Instead, each node contains data and a reference, or link, to the next node in t
 Second definition
 A linked list is a linear data structure similar to an array. However, unlike arrays, elements are not stored in a particular memory location or index. Rather each element is a separate object that contains a pointer or a link to the next object in that list.
 
+Questions
+1. Why Do We Need tail?
+Without tail, every time we add a new node at the end, we’d have to traverse the entire list to find the last node. This makes push(value) an O(n) operation (linear time).
+
+By keeping a tail pointer, we can directly access the last node in O(1) time (constant time), making push(value) much faster.
+
 Notes: this section still need to re-learn
