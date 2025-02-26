@@ -1,0 +1,16 @@
+1. MinStack
+Currently my minimum() method takes O(n) time because it iterates through the entire stack.
+To improve this to O(1) time, need to keep track of the minimum value at all times.
+
+Key Idea:
+- Use an additional stack (minStack) to store the minimum value at each step.
+- Every time using push(), also update minStack.
+- Every time using pop(), also update minStack. 
+
+Hints to Implement It
+1. Modify push(value)
+
+2. Modify pop()
+When popping a value from the main stack, also pop from minStack to keep it in sync.
+3. Modify minimum()
+Instead of looping through all elements, just return the top of minStack (O(1) operation).
