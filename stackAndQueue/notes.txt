@@ -1,0 +1,9 @@
+The difference between Stack and Queue
+Stack -> a linear data structure that follows LIFO (Last In First Out)
+Queue -> a linear data structure that follows FIFO (First In First Out)
+
+For stack the "First" will be pointing on the last item, where for queue the "Last" will be pointing on the first item
+
+Terms:
+1. Enqueue -> To place something into a queue or to add an element to the "this.last" of a queue.
+2. Dequeue -> To take something out of a queue or to remove the first available element from the "this.first" of a queue.
