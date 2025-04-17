@@ -1,0 +1,1 @@
+A doubly-linked list is like a singly-linked list, but with an extra feature: you can move in both directions.
