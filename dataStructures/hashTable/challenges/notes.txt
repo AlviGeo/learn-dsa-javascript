@@ -1,3 +1,0 @@
-There are two solution for this twoSum questions one is in the array folder.
-The first one is using Brute Force O(n^2).
-The second one is using Hash Table O(n) and much more efficient than the first one.
